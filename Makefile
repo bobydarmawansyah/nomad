@@ -14,3 +14,4 @@ build:
 	@ docker tag rms1000watt/nomad:$(VERSION_TAG) rms1000watt/nomad:$(VERSION_DATE_SECONDS)
 	@ echo "Tagged 'latest' as:"
 	@ echo "    rms1000watt/nomad:$(VERSION_DATE_SECONDS)"
+	
